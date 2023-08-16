@@ -1,0 +1,197 @@
+
+/* Establecer el color de fondo y el margen para la etiqueta head y header */
+head{
+  background-color: #ffffff;
+  margin: auto;
+}
+
+header{
+   
+    margin: auto;
+
+  position: absolute;
+}
+
+/* Establecer la fuente y el color de fondo para el cuerpo del sitio web */
+body{
+  display: block;
+  background-color: #ffffff;
+  font-family: Arial, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif sans-serif;
+}
+
+h2{
+  display: block;
+  margin-top: 20px;
+  margin: 35px;
+}
+
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/* Establecer el diseño para la imagen y el texto del encabezado */
+.container-fluid img {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+ 
+
+}
+
+.container-fluid p {
+
+  display: block;
+  float: right;
+  margin-right: 20px;
+  margin-block-end:50px;
+  margin-top: 50px;
+  margin-block-start: 20px;
+
+}
+
+/* Establecer el margen superior y justificar el texto en la sección principal */
+section{
+    
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  padding-top: 10px;
+
+}
+
+/* Establecer el margen y eliminar el borde para las imágenes */
+img{
+
+  margin: auto;
+  border: 0px;
+  padding-top: 5px;
+}
+
+/* Establecer el tamaño máximo y la alineación para los videos */
+
+
+/* Establecer el estilo y la posición para la barra de navegación */
+nav {
+  background-color: rgba(161, 217, 219, 0.544);
+  position: relative;
+  top: 0;
+  width: 1000px;
+  height: 32px;
+  margin: auto;
+}
+
+
+
+/* Establecer el estilo para la lista de navegación */
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin:auto;
+  text-align: center;
+
+}
+
+a img{
+  
+  size: 5px;
+}
+
+.address {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  
+  .telefonos {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  
+  .email {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  
+  .facebook {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  
+  .social-links {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 13px;
+  }
+  
+
+
+
+
+
+
+  #video-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  #video-background {
+    margin-top: 90px; 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    z-index: 1; }
+
+
+    #logo {
+        position: absolute;
+        top: 20px;
+        margin: 0 auto;
+        max-width: 412px;
+        z-index: 2; /* Ajusta el valor del z-index */
+      }
+
+    
+    
+ 
+
+      .small-video {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+    
+      @media (max-width: 767px) 
+        .small-video {
+          max-width: 100%;
+        }
+
+        .youtube-link {
+            position: sticky;
+            top: 20px;
+            z-index: 9999;
+          }
+          
+
+          #cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #cffbe9f2;
+            padding: 8px;
+            text-align: center;
+            display: none; }
